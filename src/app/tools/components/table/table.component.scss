@@ -1,0 +1,203 @@
+:host {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  grid-template-rows: repeat(6, 100px);
+  column-gap: 5px;
+  row-gap: 5px;
+  grid-template-areas:
+    "unit-test11 unit-test12 legend legend legend legend legend legend libs11 libs12"
+    "unit-test9 unit-test10 legend legend legend legend legend legend libs9 libs10"
+    "unit-test7 unit-test8 legend legend legend legend legend legend libs7 libs8"
+    "unit-test5 unit-test6 component-test3 vis-reg1 vis-reg2 . x x libs5 libs6"
+    "unit-test3 unit-test4 component-test2 e2e3 e2e4 accessibility x x libs3 libs4"
+    "unit-test1 unit-test2 component-test1 e2e1 e2e2 accessibility x x libs1 libs2";
+}
+
+//legend
+.legend {
+  grid-area: legend;
+}
+
+
+//unit-test
+.unit-test1 {
+  grid-area: unit-test1;
+  background-color: yellow;
+}
+
+.unit-test2 {
+  grid-area: unit-test2;
+  background-color: yellow;
+}
+
+.unit-test3 {
+  grid-area: unit-test3;
+  background-color: yellow;
+}
+
+.unit-test4 {
+  grid-area: unit-test4;
+  background-color: yellow;
+}
+
+.unit-test5 {
+  grid-area: unit-test5;
+  background-color: yellow;
+}
+
+.unit-test6 {
+  grid-area: unit-test6;
+  background-color: yellow;
+}
+
+.unit-test7 {
+  grid-area: unit-test7;
+  background-color: yellow;
+}
+
+.unit-test8 {
+  grid-area: unit-test8;
+  background-color: yellow;
+}
+
+.unit-test9 {
+  grid-area: unit-test9;
+  background-color: yellow;
+}
+
+.unit-test10 {
+  grid-area: unit-test10;
+  background-color: yellow;
+}
+
+.unit-test11 {
+  grid-area: unit-test11;
+  background-color: yellow;
+}
+
+.unit-test12 {
+  grid-area: unit-test12;
+  background-color: yellow;
+}
+
+//libs
+.libs1 {
+  grid-area: libs1;
+  background-color: green;
+}
+
+.libs2 {
+  grid-area: libs2;
+  background-color: green;
+}
+
+.libs3 {
+  grid-area: libs3;
+  background-color: green;
+}
+
+.libs4 {
+  grid-area: libs4;
+  background-color: green;
+}
+
+.libs5 {
+  grid-area: libs5;
+  background-color: green;
+}
+
+.libs6 {
+  grid-area: libs6;
+  background-color: green;
+}
+
+.libs7 {
+  grid-area: libs7;
+  background-color: green;
+}
+
+.libs8 {
+  grid-area: libs8;
+  background-color: green;
+}
+
+.libs9 {
+  grid-area: libs9;
+  background-color: green;
+}
+
+.libs10 {
+  grid-area: libs10;
+  background-color: green;
+}
+
+.libs11 {
+  grid-area: libs11;
+  background-color: green;
+}
+
+.libs12 {
+  grid-area: libs12;
+  background-color: green;
+}
+
+//component-test
+.component-test1 {
+  grid-area: component-test1;
+  background-color: orange;
+}
+
+.component-test2 {
+  grid-area: component-test2;
+  background-color: orange;
+}
+
+.component-test3 {
+  grid-area: component-test3;
+  background-color: orange;
+}
+
+//e2e
+.e2e1 {
+  grid-area: e2e1;
+  background-color: red;
+}
+
+.e2e2 {
+  grid-area: e2e2;
+  background-color: red;
+}
+
+.e2e3 {
+  grid-area: e2e3;
+  background-color: red;
+}
+
+.e2e4 {
+  grid-area: e2e4;
+  background-color: red;
+}
+
+//vis-reg
+.vis-reg1 {
+  grid-area: vis-reg1;
+  background-color: aqua;
+}
+
+.vis-reg2 {
+  grid-area: vis-reg2;
+  background-color: aqua;
+}
+
+//accessibility
+.accessibility1 {
+  grid-area: accessibility1;
+  background-color: cadetblue;
+}
+
+.accessibility2 {
+  grid-area: accessibility2;
+  background-color: cadetblue;
+}
