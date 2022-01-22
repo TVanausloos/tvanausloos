@@ -17,12 +17,20 @@ export class ToolSummaryItem {
     return new ToolSummaryItem(id, abbreviation, name, category);
   }
 
+  getId(): String {
+    return this.id;
+  }
+
   getAbbreviation(): string {
     return this.abbreviation;
   }
 
   getName(): string {
     return this.name;
+  }
+
+  getCategory(): ToolCategory {
+    return this.category;
   }
 }
 

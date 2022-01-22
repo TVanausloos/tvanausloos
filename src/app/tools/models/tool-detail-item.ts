@@ -43,6 +43,11 @@ export class ToolDetailItem {
     return this.name;
   }
 
+
+  getCategory(): ToolCategory {
+    return this.category;
+  }
+
   getWebsite(): string {
     return this.website;
   }
@@ -54,6 +59,7 @@ export class ToolDetailItem {
   getTextInnerHtml(): string {
     return this.textInnerHtml;
   }
+
 }
 
 export interface ToolDetailDto {
