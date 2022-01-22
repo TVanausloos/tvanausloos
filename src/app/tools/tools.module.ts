@@ -6,6 +6,7 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
 import { TableLegendComponent } from './components/table-legend/table-legend.component';
 import { OverviewPage } from './page/overview-page/overview.page';
 import { RouterModule } from '@angular/router';
+import { DetailPage } from './page/detail-page/detail.page';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { RouterModule } from '@angular/router';
     ItemDetailComponent,
     TableLegendComponent,
     OverviewPage,
+    DetailPage,
   ],
   exports: [TableComponent, ItemDetailComponent],
   imports: [CommonModule, RouterModule],

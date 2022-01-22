@@ -1,7 +1,9 @@
-<section>
-  <h1>Frontend testing landscape</h1>
-  <app-table></app-table>
-</section>
+<ng-container *ngIf="toolSummaries$ | async ;let  toolSummaries">
+  <section>
+    <h1>Frontend testing landscape</h1>
+    <app-table></app-table>
+  </section>
+</ng-container>
 <aside>
   <router-outlet></router-outlet>
 </aside>

@@ -11,8 +11,8 @@ export class ToolsService {
     return of(toolSummaryItems);
   }
 
-  getDetailItemById(id: string): ToolDetailItem | undefined {
-    return toolDetailItems.find((item) => item.getId() === id);
+  getDetailItemById(id: string): Observable<ToolDetailItem | undefined> {
+    return of(toolDetailItems.find((item) => item.getId() === id));
   }
 }
 
