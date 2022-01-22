@@ -1,12 +1,20 @@
+import { ToolCategory } from './tool-category';
+
 export class ToolSummaryItem {
   constructor(
     private id: String,
     private abbreviation: string,
-    private name: string
+    private name: string,
+    private category: ToolCategory
   ) {}
 
-  static fromDto({ id, abbreviation, name }: ToolSummaryItemDto): ToolSummaryItem {
-    return new ToolSummaryItem(id, abbreviation, name);
+  static fromDto({
+    id,
+    abbreviation,
+    name,
+    category,
+  }: ToolSummaryItemDto): ToolSummaryItem {
+    return new ToolSummaryItem(id, abbreviation, name, category);
   }
 
   getAbbreviation(): string {
@@ -22,4 +30,5 @@ export interface ToolSummaryItemDto {
   id: string;
   abbreviation: string;
   name: string;
+  category: ToolCategory;
 }

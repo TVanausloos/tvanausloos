@@ -1,8 +1,11 @@
+import { ToolCategory } from './tool-category';
+
 export class ToolDetailItem {
   constructor(
     private id: string,
     private abbreviation: string,
     private name: string,
+    private category: ToolCategory,
     private website: string,
     private logoLocation: string,
     private textInnerHtml: string
@@ -12,6 +15,7 @@ export class ToolDetailItem {
     id,
     abbreviation,
     name,
+    category,
     website,
     logoLocation,
     textInnerHtml,
@@ -20,6 +24,7 @@ export class ToolDetailItem {
       id,
       abbreviation,
       name,
+      category,
       website,
       logoLocation,
       textInnerHtml
@@ -55,6 +60,7 @@ export interface ToolDetailDto {
   id: string;
   abbreviation: string;
   name: string;
+  category: ToolCategory;
   website: string;
   logoLocation: string;
   textInnerHtml: string;
