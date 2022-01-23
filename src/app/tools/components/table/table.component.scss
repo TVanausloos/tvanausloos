@@ -25,210 +25,87 @@
   background-color: yellow;
 }
 
-.unit_test1 {
-  @extend .unit-test;
-  grid-area: unit_test1;
+$unit-test-amount: 12;
+
+@mixin unit_test_items {
+  @for $i from 1 through $unit-test-amount {
+    .unit_test#{$i} { @extend .unit-test; grid-area: unit_test#{$i} }
+  }
 }
 
-.unit_test2 {
-  @extend .unit-test;
-  grid-area: unit_test2;
+@include unit_test_items;
 
-}
-
-.unit_test3 {
-  @extend .unit-test;
-  grid-area: unit_test3;
-
-}
-
-.unit_test4 {
-  @extend .unit-test;
-  grid-area: unit_test4;
-
-}
-
-.unit_test5 {
-  @extend .unit-test;
-  grid-area: unit_test5;
-
-}
-
-.unit_test6 {
-  @extend .unit-test;
-  grid-area: unit_test6;
-
-}
-
-.unit_test7 {
-  @extend .unit-test;
-  grid-area: unit_test7;
-
-}
-
-.unit_test8 {
-  @extend .unit-test;
-  grid-area: unit_test8;
-
-}
-
-.unit_test9 {
-  @extend .unit-test;
-  grid-area: unit_test9;
-
-}
-
-.unit_test10 {
-  @extend .unit-test;
-  grid-area: unit_test10;
-
-}
-
-.unit_test11 {
-  @extend .unit-test;
-  grid-area: unit_test11;
-
-}
-
-.unit_test12 {
-  @extend .unit-test;
-  grid-area: unit_test12;
-
-}
 
 //libs
 .libs{
   background-color: green;
 }
 
-.libs1 {
-  @extend .libs;
-  grid-area: libs1;
+$libs-amount: 12;
+
+@mixin libs_items {
+  @for $i from 1 through $libs-amount {
+    .libs#{$i} { @extend .libs; grid-area: libs#{$i} }
+  }
 }
 
-.libs2 {
-  @extend .libs;
-  grid-area: libs2;
-}
+@include libs_items;
 
-.libs3 {
-  @extend .libs;
-  grid-area: libs3;
-}
-
-.libs4 {
-  @extend .libs;
-  grid-area: libs4;
-}
-
-.libs5 {
-  @extend .libs;
-  grid-area: libs5;
-}
-
-.libs6 {
-  @extend .libs;
-  grid-area: libs6;
-}
-
-.libs7 {
-  @extend .libs;
-  grid-area: libs7;
-}
-
-.libs8 {
-  @extend .libs;
-  grid-area: libs8;
-}
-
-.libs9 {
-  @extend .libs;
-  grid-area: libs9;
-}
-
-.libs10 {
-  @extend .libs;
-  grid-area: libs10;
-}
-
-.libs11 {
-  @extend .libs;
-  grid-area: libs11;
-}
-
-.libs12 {
-  @extend .libs;
-  grid-area: libs12;
-}
 
 //component_test
 .component{
   background-color: orange;
 }
-.component_test1 {
-  @extend .component;
-  grid-area: component_test1;
+$component-amount: 3;
+
+@mixin component_items {
+  @for $i from 1 through $component-amount {
+    .component#{$i} { @extend .component; grid-area: component#{$i} }
+  }
 }
 
-.component_test2 {
-  @extend .component;
-  grid-area: component_test2;
-}
+@include component_items;
 
-.component_test3 {
-  @extend .component;
-  grid-area: component_test3;
-}
 
 //e2e
 .e2e{
   background-color: red;
 }
-.e2e1 {
-  @extend .e2e;
-  grid-area: e2e1;
+$e2e-amount: 4;
+
+@mixin e2e_items {
+  @for $i from 1 through $e2e-amount {
+    .e2e#{$i} { @extend .e2e; grid-area: e2e#{$i} }
+  }
 }
 
-.e2e2 {
-  @extend .e2e;
-  grid-area: e2e2;
-}
-
-.e2e3 {
-  @extend .e2e;
-  grid-area: e2e3;
-}
-
-.e2e4 {
-  @extend .e2e;
-  grid-area: e2e4;
-}
+@include e2e_items;
 
 //vis_reg
 .vis-reg{
   background-color: aqua;
 }
-.vis_reg1 {
-  @extend .vis-reg;
-  grid-area: vis_reg1;
+$vis-reg-amount: 2;
+
+@mixin vis-reg_items {
+  @for $i from 1 through $vis-reg-amount {
+    .vis-reg#{$i} { @extend .vis-reg; grid-area: vis-reg#{$i} }
+  }
 }
 
-.vis_reg2 {
-  @extend .vis-reg;
-  grid-area: vis_reg2;
-}
+@include vis-reg_items;
 
 //accessibility
 .accessibility{
   background-color: cadetblue;
 }
 
-.accessibility1 {
-  @extend .accessibility;
-  grid-area: accessibility1;
+$accessibility-amount: 2;
+
+@mixin accessibility_items {
+  @for $i from 1 through $accessibility-amount {
+    .accessibility#{$i} { @extend .accessibility; grid-area: accessibility#{$i} }
+  }
 }
 
-.accessibility2 {
-  @extend .accessibility;
-  grid-area: accessibility2;
-}
+@include accessibility_items;
