@@ -1,3 +1,4 @@
+@use 'src/variables' as *;
 :host {
   height: 100%;
   display: flex;
@@ -7,9 +8,12 @@
 section {
   height: 100%;
   flex: 2;
+  padding: 0 1rem;
 }
 
 aside {
   height: 100%;
   flex: 1;
+  padding: 0 1rem;
+  background-color: $light-grey;
 }
