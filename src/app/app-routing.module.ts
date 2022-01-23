@@ -8,10 +8,7 @@ const routes: Routes = [
   {
     path: 'frontend-landscape',
     component: OverviewPage,
-    children: [
-      { path: '', redirectTo: '1', pathMatch: 'full' },
-      { path: ':id', component: DetailPage },
-    ],
+    children: [{ path: ':id', component: DetailPage }],
   },
   { path: '**', redirectTo: '/' },
 ];

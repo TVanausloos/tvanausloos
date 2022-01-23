@@ -3,6 +3,7 @@ import { ToolSummaryItem } from '../models/tool-summary-item';
 import { Observable, of } from 'rxjs';
 import { ToolDetailItem } from '../models/tool-detail-item';
 import { ToolCategory } from '../models/tool-category';
+import { v4 as uuid } from 'uuid';
 
 @Injectable({
   providedIn: 'root',
@@ -29,7 +30,7 @@ export class ToolsService {
 
 const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
-    '1',
+    uuid(),
     'Ja',
     'Jasmine',
     ToolCategory.UNIT_TEST,
@@ -38,7 +39,7 @@ const toolDetailItems: ToolDetailItem[] = [
     ''
   ),
   new ToolDetailItem(
-    '2',
+    uuid(),
     'Ka',
     'Karma',
     ToolCategory.UNIT_TEST,
@@ -47,7 +48,7 @@ const toolDetailItems: ToolDetailItem[] = [
     ''
   ),
   new ToolDetailItem(
-    '3',
+    uuid(),
     'Mo',
     'Mocha',
     ToolCategory.UNIT_TEST,
@@ -55,13 +56,21 @@ const toolDetailItems: ToolDetailItem[] = [
     'fake_location',
     ''
   ),
-
   new ToolDetailItem(
-    '4',
+    uuid(),
     'Je',
     'Jest',
     ToolCategory.UNIT_TEST,
     'https://jestjs.io/',
+    'fake_location',
+    ''
+  ),
+  new ToolDetailItem(
+    uuid(),
+    'Ac',
+    'Angular Core',
+    ToolCategory.COMPONENT_TEST,
+    'https://angular.io/api/core/testing',
     'fake_location',
     ''
   ),
