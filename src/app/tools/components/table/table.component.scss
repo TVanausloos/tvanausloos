@@ -1,9 +1,12 @@
-$unit-test-amount: 12;
-$library-amount: 12;
-$component-amount: 3;
-$e2e-amount: 4;
-$vis-reg-amount: 2;
-$accessibility-amount: 2;
+@use "src/variables" as *;
+
+$_unit-test-amount: 12;
+$_library-amount: 12;
+$_component-amount: 3;
+$_e2e-amount: 4;
+$_vis-reg-amount: 2;
+$_accessibility-amount: 2;
+$_mutation-amount: 1;
 
 :host {
   width: 100%;
@@ -14,12 +17,12 @@ $accessibility-amount: 2;
   column-gap: 5px;
   row-gap: 5px;
   grid-template-areas:
-    "unit_test11 unit_test12 legend legend legend legend legend legend library11 library12"
-    "unit_test9 unit_test10 legend legend legend legend legend legend library9 library10"
-    "unit_test7 unit_test8 legend legend legend legend legend legend library7 library8"
-    "unit_test5 unit_test6 component_test3 visual_regression_test1 visual_regression_test2 . x x library5 library6"
-    "unit_test3 unit_test4 component_test2 e2e_test3 e2e_test4 accessibility_test2 x x library3 library4"
-    "unit_test1 unit_test2 component_test1 e2e_test1 e2e_test2 accessibility_test1 x x library1 library2";
+    "unit_test11 unit_test12 legend legend legend legend legend . . library13"
+    "unit_test9 unit_test10 legend legend legend legend legend . . library12"
+    "unit_test7 unit_test8 legend legend legend legend legend . library10 library11"
+    "unit_test5 unit_test6 legend legend legend legend legend library7 library8 library9"
+    "unit_test3 unit_test4 component_test2 e2e_test3 mutation_test1 accessibility_test2 visual_regression_test2 library4 library5 library6"
+    "unit_test1 unit_test2 component_test1 e2e_test1 e2e_test2 accessibility_test1 visual_regression_test1 library1 library2 library3";
 }
 
 //legend
@@ -29,22 +32,25 @@ $accessibility-amount: 2;
 
 //styling for specific grid areas
 .unit_test{
-  background-color: yellow;
+  background-color: $yellow;
 }
 .library{
-  background-color: green;
+  background-color: $purple;
 }
 .component_test{
-  background-color: orange;
+  background-color: $darker-yellow;
 }
 .e2e_test{
-  background-color: red;
+  background-color: $orange;
 }
 .visual_regression_test{
-  background-color: aqua;
+  background-color: $blue;
 }
 .accessibility_test{
-  background-color: cadetblue;
+  background-color: $green;
+}
+.mutation_test{
+  background-color: $pink;
 }
 
 
@@ -54,10 +60,11 @@ $accessibility-amount: 2;
   }
 }
 
-@include generate-grid-area-class-for($unit-test-amount, unit_test);
-@include generate-grid-area-class-for($library-amount, library);
-@include generate-grid-area-class-for($component-amount, component_test);
-@include generate-grid-area-class-for($e2e-amount, e2e_test);
-@include generate-grid-area-class-for($vis-reg-amount, visual_regression_test);
-@include generate-grid-area-class-for($accessibility-amount, accessibility_test);
+@include generate-grid-area-class-for($_unit-test-amount, unit_test);
+@include generate-grid-area-class-for($_library-amount, library);
+@include generate-grid-area-class-for($_component-amount, component_test);
+@include generate-grid-area-class-for($_e2e-amount, e2e_test);
+@include generate-grid-area-class-for($_vis-reg-amount, visual_regression_test);
+@include generate-grid-area-class-for($_accessibility-amount, accessibility_test);
+@include generate-grid-area-class-for($_mutation-amount, mutation_test);
 
