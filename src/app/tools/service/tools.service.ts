@@ -86,7 +86,7 @@ const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
     uuid(),
     'Rm',
-    'RxJs marbles',
+    'RxJs Marbles',
     ToolCategory.UNIT_TEST,
     'https://rxjs.dev/guide/testing/marble-testing',
     'fake_location',
@@ -95,7 +95,7 @@ const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
     uuid(),
     'Jm',
-    'Jest marbles',
+    'Jest Marbles',
     ToolCategory.UNIT_TEST,
     'https://www.npmjs.com/package/jest-marbles',
     'fake_location',
@@ -158,7 +158,7 @@ const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
     uuid(),
     'Cx',
-    'CypressAxe',
+    'Cypress Axe',
     ToolCategory.ACCESSIBILITY_TEST,
     'https://www.npmjs.com/package/cypress-axe/',
     'fake_location',
@@ -167,7 +167,7 @@ const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
     uuid(),
     'Jx',
-    'Jest Ace',
+    'Jest Axe',
     ToolCategory.ACCESSIBILITY_TEST,
     'https://www.npmjs.com/package/jest-axe',
     'fake_location',
@@ -194,7 +194,7 @@ const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
     uuid(),
     'Ht',
-    'HttpClientTestModule',
+    'HttpClient TestModule',
     ToolCategory.LIBRARY,
     'https://angular.io/api/common/http/testing/HttpClientTestingModule',
     'fake_location',
@@ -202,8 +202,8 @@ const toolDetailItems: ToolDetailItem[] = [
   ),
   new ToolDetailItem(
     uuid(),
-    'Jas',
-    'JestAutoSpies',
+    'Js',
+    'Jest AutoSpies',
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/jest-auto-spies',
     'fake_location',
