@@ -20,184 +20,215 @@
   grid-area: legend;
 }
 
-
 //unit_test
-.unit_test1 {
-  grid-area: unit_test1;
+.unit-test{
   background-color: yellow;
+}
+
+.unit_test1 {
+  @extend .unit-test;
+  grid-area: unit_test1;
 }
 
 .unit_test2 {
+  @extend .unit-test;
   grid-area: unit_test2;
-  background-color: yellow;
+
 }
 
 .unit_test3 {
+  @extend .unit-test;
   grid-area: unit_test3;
-  background-color: yellow;
+
 }
 
 .unit_test4 {
+  @extend .unit-test;
   grid-area: unit_test4;
-  background-color: yellow;
+
 }
 
 .unit_test5 {
+  @extend .unit-test;
   grid-area: unit_test5;
-  background-color: yellow;
+
 }
 
 .unit_test6 {
+  @extend .unit-test;
   grid-area: unit_test6;
-  background-color: yellow;
+
 }
 
 .unit_test7 {
+  @extend .unit-test;
   grid-area: unit_test7;
-  background-color: yellow;
+
 }
 
 .unit_test8 {
+  @extend .unit-test;
   grid-area: unit_test8;
-  background-color: yellow;
+
 }
 
 .unit_test9 {
+  @extend .unit-test;
   grid-area: unit_test9;
-  background-color: yellow;
+
 }
 
 .unit_test10 {
+  @extend .unit-test;
   grid-area: unit_test10;
-  background-color: yellow;
+
 }
 
 .unit_test11 {
+  @extend .unit-test;
   grid-area: unit_test11;
-  background-color: yellow;
+
 }
 
 .unit_test12 {
+  @extend .unit-test;
   grid-area: unit_test12;
-  background-color: yellow;
+
 }
 
 //libs
-.libs1 {
-  grid-area: libs1;
+.libs{
   background-color: green;
+}
+
+.libs1 {
+  @extend .libs;
+  grid-area: libs1;
 }
 
 .libs2 {
+  @extend .libs;
   grid-area: libs2;
-  background-color: green;
 }
 
 .libs3 {
+  @extend .libs;
   grid-area: libs3;
-  background-color: green;
 }
 
 .libs4 {
+  @extend .libs;
   grid-area: libs4;
-  background-color: green;
 }
 
 .libs5 {
+  @extend .libs;
   grid-area: libs5;
-  background-color: green;
 }
 
 .libs6 {
+  @extend .libs;
   grid-area: libs6;
-  background-color: green;
 }
 
 .libs7 {
+  @extend .libs;
   grid-area: libs7;
-  background-color: green;
 }
 
 .libs8 {
+  @extend .libs;
   grid-area: libs8;
-  background-color: green;
 }
 
 .libs9 {
+  @extend .libs;
   grid-area: libs9;
-  background-color: green;
 }
 
 .libs10 {
+  @extend .libs;
   grid-area: libs10;
-  background-color: green;
 }
 
 .libs11 {
+  @extend .libs;
   grid-area: libs11;
-  background-color: green;
 }
 
 .libs12 {
+  @extend .libs;
   grid-area: libs12;
-  background-color: green;
 }
 
 //component_test
-.component_test1 {
-  grid-area: component_test1;
+.component{
   background-color: orange;
+}
+.component_test1 {
+  @extend .component;
+  grid-area: component_test1;
 }
 
 .component_test2 {
+  @extend .component;
   grid-area: component_test2;
-  background-color: orange;
 }
 
 .component_test3 {
+  @extend .component;
   grid-area: component_test3;
-  background-color: orange;
 }
 
 //e2e
-.e2e1 {
-  grid-area: e2e1;
+.e2e{
   background-color: red;
+}
+.e2e1 {
+  @extend .e2e;
+  grid-area: e2e1;
 }
 
 .e2e2 {
+  @extend .e2e;
   grid-area: e2e2;
-  background-color: red;
 }
 
 .e2e3 {
+  @extend .e2e;
   grid-area: e2e3;
-  background-color: red;
 }
 
 .e2e4 {
+  @extend .e2e;
   grid-area: e2e4;
-  background-color: red;
 }
 
 //vis_reg
-.vis_reg1 {
-  grid-area: vis_reg1;
+.vis-reg{
   background-color: aqua;
+}
+.vis_reg1 {
+  @extend .vis-reg;
+  grid-area: vis_reg1;
 }
 
 .vis_reg2 {
+  @extend .vis-reg;
   grid-area: vis_reg2;
-  background-color: aqua;
 }
 
 //accessibility
-.accessibility1 {
-  grid-area: accessibility1;
+.accessibility{
   background-color: cadetblue;
 }
 
+.accessibility1 {
+  @extend .accessibility;
+  grid-area: accessibility1;
+}
+
 .accessibility2 {
+  @extend .accessibility;
   grid-area: accessibility2;
-  background-color: cadetblue;
 }
