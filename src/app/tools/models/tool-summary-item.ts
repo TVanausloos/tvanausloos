@@ -2,7 +2,7 @@ import { ToolCategory } from './tool-category';
 
 export class ToolSummaryItem {
   constructor(
-    private id: String,
+    private id: string,
     private abbreviation: string,
     private name: string,
     private category: ToolCategory
@@ -17,7 +17,7 @@ export class ToolSummaryItem {
     return new ToolSummaryItem(id, abbreviation, name, category);
   }
 
-  getId(): String {
+  getId(): string {
     return this.id;
   }
 

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { ToolSummaryItem } from '../../models/tool-summary-item';
 
 @Component({
@@ -10,7 +10,13 @@ export class TableComponent implements OnInit {
   @Input()
   summaryItems!: ToolSummaryItem[];
 
+  @Output()
+  itemSelect: EventEmitter<string> = new EventEmitter<string>();
   constructor() {}
 
   ngOnInit(): void {}
+
+  onSelect(item: ToolSummaryItem) {
+    this.itemSelect.next(item.getId());
+  }
 }

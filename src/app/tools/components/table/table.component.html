@@ -1,3 +1,3 @@
 <ng-container *ngFor="let item of summaryItems; index as i">
-  <app-table-item [summaryItem]="item" [class]="item.getCategory()  + (i+1) | lowercase"></app-table-item>
+  <app-table-item [summaryItem]="item" [class]="item.getCategory()  + (i+1) | lowercase" (click)="onSelect(item)"></app-table-item>
 </ng-container>
