@@ -1,7 +1,7 @@
 <ng-container *ngIf="toolSummaries$ | async ;let  toolSummaries">
   <section>
     <h1>Frontend testing landscape</h1>
-    <app-table></app-table>
+    <app-table [summaryItems]="toolSummaries"></app-table>
   </section>
 </ng-container>
 <aside>

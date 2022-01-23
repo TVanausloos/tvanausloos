@@ -7,12 +7,12 @@
   column-gap: 5px;
   row-gap: 5px;
   grid-template-areas:
-    "unit-test11 unit-test12 legend legend legend legend legend legend libs11 libs12"
-    "unit-test9 unit-test10 legend legend legend legend legend legend libs9 libs10"
-    "unit-test7 unit-test8 legend legend legend legend legend legend libs7 libs8"
-    "unit-test5 unit-test6 component-test3 vis-reg1 vis-reg2 . x x libs5 libs6"
-    "unit-test3 unit-test4 component-test2 e2e3 e2e4 accessibility x x libs3 libs4"
-    "unit-test1 unit-test2 component-test1 e2e1 e2e2 accessibility x x libs1 libs2";
+    "unit_test11 unit_test12 legend legend legend legend legend legend libs11 libs12"
+    "unit_test9 unit_test10 legend legend legend legend legend legend libs9 libs10"
+    "unit_test7 unit_test8 legend legend legend legend legend legend libs7 libs8"
+    "unit_test5 unit_test6 component_test3 vis_reg1 vis_reg2 . x x libs5 libs6"
+    "unit_test3 unit_test4 component_test2 e2e3 e2e4 accessibility x x libs3 libs4"
+    "unit_test1 unit_test2 component_test1 e2e1 e2e2 accessibility x x libs1 libs2";
 }
 
 //legend
@@ -21,64 +21,64 @@
 }
 
 
-//unit-test
-.unit-test1 {
-  grid-area: unit-test1;
+//unit_test
+.unit_test1 {
+  grid-area: unit_test1;
   background-color: yellow;
 }
 
-.unit-test2 {
-  grid-area: unit-test2;
+.unit_test2 {
+  grid-area: unit_test2;
   background-color: yellow;
 }
 
-.unit-test3 {
-  grid-area: unit-test3;
+.unit_test3 {
+  grid-area: unit_test3;
   background-color: yellow;
 }
 
-.unit-test4 {
-  grid-area: unit-test4;
+.unit_test4 {
+  grid-area: unit_test4;
   background-color: yellow;
 }
 
-.unit-test5 {
-  grid-area: unit-test5;
+.unit_test5 {
+  grid-area: unit_test5;
   background-color: yellow;
 }
 
-.unit-test6 {
-  grid-area: unit-test6;
+.unit_test6 {
+  grid-area: unit_test6;
   background-color: yellow;
 }
 
-.unit-test7 {
-  grid-area: unit-test7;
+.unit_test7 {
+  grid-area: unit_test7;
   background-color: yellow;
 }
 
-.unit-test8 {
-  grid-area: unit-test8;
+.unit_test8 {
+  grid-area: unit_test8;
   background-color: yellow;
 }
 
-.unit-test9 {
-  grid-area: unit-test9;
+.unit_test9 {
+  grid-area: unit_test9;
   background-color: yellow;
 }
 
-.unit-test10 {
-  grid-area: unit-test10;
+.unit_test10 {
+  grid-area: unit_test10;
   background-color: yellow;
 }
 
-.unit-test11 {
-  grid-area: unit-test11;
+.unit_test11 {
+  grid-area: unit_test11;
   background-color: yellow;
 }
 
-.unit-test12 {
-  grid-area: unit-test12;
+.unit_test12 {
+  grid-area: unit_test12;
   background-color: yellow;
 }
 
@@ -143,19 +143,19 @@
   background-color: green;
 }
 
-//component-test
-.component-test1 {
-  grid-area: component-test1;
+//component_test
+.component_test1 {
+  grid-area: component_test1;
   background-color: orange;
 }
 
-.component-test2 {
-  grid-area: component-test2;
+.component_test2 {
+  grid-area: component_test2;
   background-color: orange;
 }
 
-.component-test3 {
-  grid-area: component-test3;
+.component_test3 {
+  grid-area: component_test3;
   background-color: orange;
 }
 
@@ -180,14 +180,14 @@
   background-color: red;
 }
 
-//vis-reg
-.vis-reg1 {
-  grid-area: vis-reg1;
+//vis_reg
+.vis_reg1 {
+  grid-area: vis_reg1;
   background-color: aqua;
 }
 
-.vis-reg2 {
-  grid-area: vis-reg2;
+.vis_reg2 {
+  grid-area: vis_reg2;
   background-color: aqua;
 }
 

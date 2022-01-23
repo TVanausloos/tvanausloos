@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ToolSummaryItem } from '../../models/tool-summary-item';
 
 @Component({
   selector: 'app-table-item',
@@ -6,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./table-item.component.scss'],
 })
 export class TableItemComponent implements OnInit {
+  @Input()
+  summaryItem!: ToolSummaryItem;
+
+  @Input()
+  classname!: string;
+
   constructor() {}
 
   ngOnInit(): void {}
