@@ -1,0 +1,71 @@
+@use 'src/variables' as *;
+
+:host {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.legend-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-item-container {
+  width: 100%;
+  display: flex;
+  margin: .7rem 0;
+}
+
+.legend-label-color {
+  content: "\200D";
+  background-color: $purple;
+  width: 50px;
+  display: inline;
+
+}
+.legend-label-text {
+  font-weight: 200;
+  padding-left: 1.5rem;
+}
+
+
+//TODO extract general class and also reuse it in the table itself
+.yellow{
+  background-color: $yellow;
+}
+
+.orange{
+  background-color: $orange;
+}
+
+.red{
+  background-color: $red;
+}
+
+.purple{
+  background-color: $purple;
+}
+
+.pink{
+  background-color: $pink;
+}
+
+.blue{
+  background-color: $blue;
+}
+
+.green{
+  background-color: $green;
+}

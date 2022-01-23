@@ -1,3 +1,4 @@
+<app-table-legend class="legend"></app-table-legend>
 <ng-container *ngFor="let item of summaryItems; index as i">
   <app-table-item [summaryItem]="item" [class]="getItemClassName(item)" (click)="onSelect(item)"></app-table-item>
 </ng-container>

@@ -20,7 +20,7 @@ $_mutation-amount: 1;
     "unit_test11 unit_test12 legend legend legend legend legend . . library13"
     "unit_test9 unit_test10 legend legend legend legend legend . . library12"
     "unit_test7 unit_test8 legend legend legend legend legend . library10 library11"
-    "unit_test5 unit_test6 legend legend legend legend legend library7 library8 library9"
+    "unit_test5 unit_test6 component_test3 e2e_test4 mutation_test2 accessibility_test3 visual_regression_test3 library7 library8 library9"
     "unit_test3 unit_test4 component_test2 e2e_test3 mutation_test1 accessibility_test2 visual_regression_test2 library4 library5 library6"
     "unit_test1 unit_test2 component_test1 e2e_test1 e2e_test2 accessibility_test1 visual_regression_test1 library1 library2 library3";
 }
@@ -38,10 +38,10 @@ $_mutation-amount: 1;
   background-color: $purple;
 }
 .component_test{
-  background-color: $darker-yellow;
+  background-color: $orange;
 }
 .e2e_test{
-  background-color: $orange;
+  background-color: $red;
 }
 .visual_regression_test{
   background-color: $blue;
