@@ -184,7 +184,7 @@ const toolDetailItems: ToolDetailItem[] = [
   ),
   new ToolDetailItem(
     uuid(),
-    'NgRx',
+    'Nr',
     'NgRx',
     ToolCategory.LIBRARY,
     'https://ngrx.io/',
