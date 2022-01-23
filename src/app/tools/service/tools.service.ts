@@ -34,8 +34,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Ja',
     'Jasmine',
     ToolCategory.UNIT_TEST,
-    'https://jasmine.github.io/',
-    'fake_location',
+    'https://jasmine.github.io',
+    'assets/logos/jasmine.svg',
     ''
   ),
   new ToolDetailItem(
@@ -43,8 +43,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Ka',
     'Karma',
     ToolCategory.UNIT_TEST,
-    'https://karma-runner.github.io/latest/index.html/',
-    'fake_location',
+    'https://karma-runner.github.io/latest/index.html',
+    'assets/logos/karma.png',
     ''
   ),
   new ToolDetailItem(
@@ -52,8 +52,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Mo',
     'Mocha',
     ToolCategory.UNIT_TEST,
-    'https://mochajs.org//index.html/',
-    'fake_location',
+    'https://mochajs.org//index.html',
+    'assets/logos/mocha.svg',
     ''
   ),
   new ToolDetailItem(
@@ -61,8 +61,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Je',
     'Jest',
     ToolCategory.UNIT_TEST,
-    'https://jestjs.io/',
-    'fake_location',
+    'https://jestjs.io',
+    'assets/logos/jest.png',
     ''
   ),
   new ToolDetailItem(
@@ -71,7 +71,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Angular Core',
     ToolCategory.COMPONENT_TEST,
     'https://angular.io/api/core/testing',
-    'fake_location',
+    'assets/logos/angular.png',
     ''
   ),
   new ToolDetailItem(
@@ -80,7 +80,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Jest Timer Mocks',
     ToolCategory.COMPONENT_TEST,
     'https://jestjs.io/docs/timer-mocks',
-    'fake_location',
+    'assets/logos/jest.png',
     ''
   ),
   new ToolDetailItem(
@@ -89,7 +89,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'RxJs Marbles',
     ToolCategory.UNIT_TEST,
     'https://rxjs.dev/guide/testing/marble-testing',
-    'fake_location',
+    'assets/logos/rxjs.png',
     ''
   ),
   new ToolDetailItem(
@@ -98,7 +98,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Jest Marbles',
     ToolCategory.UNIT_TEST,
     'https://www.npmjs.com/package/jest-marbles',
-    'fake_location',
+    'assets/logos/jest.png',
     ''
   ),
   new ToolDetailItem(
@@ -106,8 +106,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'St',
     'Stryker',
     ToolCategory.MUTATION_TEST,
-    'https://stryker-mutator.io/docs/',
-    'fake_location',
+    'https://stryker-mutator.io/docs',
+    'assets/logos/stryker.png',
     ''
   ),
   new ToolDetailItem(
@@ -115,8 +115,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Cy',
     'Cypress',
     ToolCategory.E2E_TEST,
-    'https://www.cypress.io/',
-    'fake_location',
+    'https://www.cypress.io',
+    'assets/logos/cypress.webp',
     ''
   ),
   new ToolDetailItem(
@@ -124,8 +124,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Pw',
     'Playwright',
     ToolCategory.E2E_TEST,
-    'https://playwright.dev/docs/intro/',
-    'fake_location',
+    'https://playwright.dev/docs/intro',
+    'assets/logos/playwright.png',
     ''
   ),
   new ToolDetailItem(
@@ -134,7 +134,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Protractor',
     ToolCategory.E2E_TEST,
     '',
-    'fake_location',
+    'assets/logos/protractor.png',
     ''
   ),
   new ToolDetailItem(
@@ -143,7 +143,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Playwright-Test-Snapshots',
     ToolCategory.VISUAL_REGRESSION_TEST,
     'https://playwright.dev/docs/test-snapshots',
-    'fake_location',
+    'assets/logos/playwright.png',
     ''
   ),
   new ToolDetailItem(
@@ -151,8 +151,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Pu',
     'Puppeteer',
     ToolCategory.VISUAL_REGRESSION_TEST,
-    'https://pptr.dev/',
-    'fake_location',
+    'https://pptr.dev',
+    'assets/logos/puppeteer.png',
     ''
   ),
   new ToolDetailItem(
@@ -160,8 +160,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Cx',
     'Cypress Axe',
     ToolCategory.ACCESSIBILITY_TEST,
-    'https://www.npmjs.com/package/cypress-axe/',
-    'fake_location',
+    'https://www.npmjs.com/package/cypress-axe',
+    'assets/logos/cypress.webp',
     ''
   ),
   new ToolDetailItem(
@@ -170,7 +170,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Jest Axe',
     ToolCategory.ACCESSIBILITY_TEST,
     'https://www.npmjs.com/package/jest-axe',
-    'fake_location',
+    'assets/logos/npm.png',
     ''
   ),
   new ToolDetailItem(
@@ -178,8 +178,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Rx',
     'RxJs',
     ToolCategory.LIBRARY,
-    'https://rxjs.dev/',
-    'fake_location',
+    'https://rxjs.dev',
+    'assets/logos/rxjs.png',
     ''
   ),
   new ToolDetailItem(
@@ -187,8 +187,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Nr',
     'NgRx',
     ToolCategory.LIBRARY,
-    'https://ngrx.io/',
-    'fake_location',
+    'https://ngrx.io',
+    'assets/logos/ngrx.svg',
     ''
   ),
   new ToolDetailItem(
@@ -197,7 +197,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'HttpClient TestModule',
     ToolCategory.LIBRARY,
     'https://angular.io/api/common/http/testing/HttpClientTestingModule',
-    'fake_location',
+    'assets/logos/angular.png',
     ''
   ),
   new ToolDetailItem(
@@ -206,7 +206,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Jest AutoSpies',
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/jest-auto-spies',
-    'fake_location',
+    'assets/logos/npm.png',
     ''
   ),
   new ToolDetailItem(
@@ -215,7 +215,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'NgMocks',
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/ng-mocks',
-    'fake_location',
+    'assets/logos/npm.png',
     ''
   ),
   new ToolDetailItem(
@@ -223,8 +223,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Sp',
     'Spectator',
     ToolCategory.LIBRARY,
-    'https://ngneat.github.io/spectator/',
-    'fake_location',
+    'https://ngneat.github.io/spectator',
+    'assets/logos/spectator.svg',
     ''
   ),
   new ToolDetailItem(
@@ -232,8 +232,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Tl',
     'Testing library',
     ToolCategory.LIBRARY,
-    'https://testing-library.com/',
-    'fake_location',
+    'https://testing-library.com',
+    'assets/logos/testing-library.png',
     ''
   ),
   new ToolDetailItem(
@@ -242,7 +242,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'Angular Test Harness',
     ToolCategory.LIBRARY,
     'https://material.angular.io/guide/using-component-harnesses',
-    'fake_location',
+    'assets/logos/angular-material.png',
     ''
   ),
   new ToolDetailItem(
@@ -250,8 +250,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Sb',
     'StoryBook',
     ToolCategory.LIBRARY,
-    'https://storybook.js.org/',
-    'fake_location',
+    'https://storybook.js.org',
+    'assets/logos/storybook.png',
     ''
   ),
   new ToolDetailItem(
@@ -259,8 +259,8 @@ const toolDetailItems: ToolDetailItem[] = [
     'Nx',
     'Nx Monorepo',
     ToolCategory.LIBRARY,
-    'https://nx.dev/',
-    'fake_location',
+    'https://nx.dev',
+    'assets/logos/nx.png',
     ''
   ),
   new ToolDetailItem(
@@ -269,7 +269,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'SuperTest',
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/supertest',
-    'fake_location',
+    'assets/logos/npm.png',
     ''
   ),
   new ToolDetailItem(
@@ -278,7 +278,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'MockServer',
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/mock-server',
-    'fake_location',
+    'assets/logos/npm.png',
     ''
   ),
 ];
