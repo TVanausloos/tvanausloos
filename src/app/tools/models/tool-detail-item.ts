@@ -8,28 +8,11 @@ export class ToolDetailItem {
     private category: ToolCategory,
     private website: string,
     private logoLocation: string,
-    private textInnerHtml: string
+    private textInnerHtml: string,
+    private pros: string[],
+    private cons: string[],
+    private comments: string[]
   ) {}
-
-  static fromDto({
-    id,
-    abbreviation,
-    name,
-    category,
-    website,
-    logoLocation,
-    textInnerHtml,
-  }: ToolDetailDto): ToolDetailItem {
-    return new ToolDetailItem(
-      id,
-      abbreviation,
-      name,
-      category,
-      website,
-      logoLocation,
-      textInnerHtml
-    );
-  }
 
   getId(): string {
     return this.id;
@@ -42,7 +25,6 @@ export class ToolDetailItem {
   getName(): string {
     return this.name;
   }
-
 
   getCategory(): ToolCategory {
     return this.category;
@@ -60,14 +42,15 @@ export class ToolDetailItem {
     return this.textInnerHtml;
   }
 
-}
+  getPros(): string[] {
+    return this.pros;
+  }
 
-export interface ToolDetailDto {
-  id: string;
-  abbreviation: string;
-  name: string;
-  category: ToolCategory;
-  website: string;
-  logoLocation: string;
-  textInnerHtml: string;
+  getCons(): string[] {
+    return this.cons;
+  }
+
+  getComments(): string[] {
+    return this.comments;
+  }
 }

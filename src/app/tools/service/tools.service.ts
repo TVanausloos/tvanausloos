@@ -27,7 +27,6 @@ export class ToolsService {
     return of(toolDetailItems.find((item) => item.getId() === id));
   }
 }
-
 const toolDetailItems: ToolDetailItem[] = [
   new ToolDetailItem(
     uuid(),
@@ -36,7 +35,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://jasmine.github.io',
     'assets/logos/jasmine.svg',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -45,7 +47,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://karma-runner.github.io/latest/index.html',
     'assets/logos/karma.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -54,7 +59,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://mochajs.org//index.html',
     'assets/logos/mocha.svg',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -63,7 +71,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://jestjs.io',
     'assets/logos/jest.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -72,7 +83,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.COMPONENT_TEST,
     'https://angular.io/api/core/testing',
     'assets/logos/angular.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -81,7 +95,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.COMPONENT_TEST,
     'https://jestjs.io/docs/timer-mocks',
     'assets/logos/jest.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -90,7 +107,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://rxjs.dev/guide/testing/marble-testing',
     'assets/logos/rxjs.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -99,7 +119,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://www.npmjs.com/package/jest-marbles',
     'assets/logos/jest.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -108,7 +131,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.MUTATION_TEST,
     'https://stryker-mutator.io/docs',
     'assets/logos/stryker.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -117,7 +143,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.E2E_TEST,
     'https://www.cypress.io',
     'assets/logos/cypress.webp',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -126,7 +155,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.E2E_TEST,
     'https://playwright.dev/docs/intro',
     'assets/logos/playwright.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -135,7 +167,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.E2E_TEST,
     '',
     'assets/logos/protractor.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -144,7 +179,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.VISUAL_REGRESSION_TEST,
     'https://playwright.dev/docs/test-snapshots',
     'assets/logos/playwright.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -153,7 +191,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.VISUAL_REGRESSION_TEST,
     'https://pptr.dev',
     'assets/logos/puppeteer.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -162,7 +203,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.ACCESSIBILITY_TEST,
     'https://www.npmjs.com/package/cypress-axe',
     'assets/logos/cypress.webp',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -171,7 +215,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.ACCESSIBILITY_TEST,
     'https://www.npmjs.com/package/jest-axe',
     'assets/logos/npm.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -180,7 +227,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://rxjs.dev',
     'assets/logos/rxjs.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -189,7 +239,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://ngrx.io',
     'assets/logos/ngrx.svg',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -198,7 +251,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://angular.io/api/common/http/testing/HttpClientTestingModule',
     'assets/logos/angular.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -207,7 +263,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/jest-auto-spies',
     'assets/logos/npm.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -216,7 +275,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/ng-mocks',
     'assets/logos/npm.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -225,7 +287,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://ngneat.github.io/spectator',
     'assets/logos/spectator.svg',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -234,7 +299,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://testing-library.com',
     'assets/logos/testing-library.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -243,7 +311,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://material.angular.io/guide/using-component-harnesses',
     'assets/logos/angular-material.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -252,7 +323,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://storybook.js.org',
     'assets/logos/storybook.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -261,7 +335,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://nx.dev',
     'assets/logos/nx.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -270,7 +347,10 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/supertest',
     'assets/logos/npm.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
   new ToolDetailItem(
     uuid(),
@@ -279,6 +359,9 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/mock-server',
     'assets/logos/npm.png',
-    ''
+    '',
+    [],
+    [],
+    []
   ),
 ];
