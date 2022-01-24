@@ -38,7 +38,7 @@ const toolDetailItems: ToolDetailItem[] = [
     '',
     [],
     [],
-    []
+    ['Assertion library', 'Default packaged with Angular']
   ),
   new ToolDetailItem(
     uuid(),
@@ -48,9 +48,13 @@ const toolDetailItems: ToolDetailItem[] = [
     'https://karma-runner.github.io/latest/index.html',
     'assets/logos/karma.png',
     '',
-    [],
-    [],
-    []
+    [
+      'Testrunner',
+      'Framework/testing library agnostic',
+      'Already configured so if you dont need anything special, you can use the default setup',
+    ],
+    ['Can not run test in parallel'],
+    ['Comes with a default reporter, but you can also configure one yourself.']
   ),
   new ToolDetailItem(
     uuid(),

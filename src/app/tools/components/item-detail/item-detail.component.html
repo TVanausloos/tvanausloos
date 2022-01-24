@@ -1,3 +1,22 @@
 <h1>{{item.getName()}}</h1>
 <img [src]="item.getLogoLocation()">
+<ng-container *ngIf="item.getComments()">
+  <h4>Some info</h4>
+  <ul>
+    <li *ngFor="let comment of item.getComments()"><p>{{comment}}</p></li>
+  </ul>
+</ng-container>
+<ng-container *ngIf="item.getPros()">
+  <h4>Pro's</h4>
+  <ul>
+    <li *ngFor="let pro of item.getPros()"><p>{{pro}}</p></li>
+  </ul>
+</ng-container>
+<ng-container *ngIf="item.getCons()">
+  <h4>Con's</h4>
+  <ul>
+    <li *ngFor="let con of item.getCons()"><p>{{con}}</p></li>
+  </ul>
+</ng-container>
+<h4>Website</h4>
 <a [href]="item.getWebsite()" target="_blank">{{item.getWebsite()}}</a>
