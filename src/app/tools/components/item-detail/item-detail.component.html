@@ -1,18 +1,18 @@
 <h1>{{item.getName()}}</h1>
 <img [src]="item.getLogoLocation()">
-<ng-container *ngIf="item.getComments()">
+<ng-container *ngIf="item.getComments().length > 0">
   <h4>Some info</h4>
   <ul>
     <li *ngFor="let comment of item.getComments()"><p>{{comment}}</p></li>
   </ul>
 </ng-container>
-<ng-container *ngIf="item.getPros()">
+<ng-container *ngIf="item.getPros().length > 0">
   <h4>Pro's</h4>
   <ul>
     <li *ngFor="let pro of item.getPros()"><p>{{pro}}</p></li>
   </ul>
 </ng-container>
-<ng-container *ngIf="item.getCons()">
+<ng-container *ngIf="item.getCons().length > 0">
   <h4>Con's</h4>
   <ul>
     <li *ngFor="let con of item.getCons()"><p>{{con}}</p></li>
