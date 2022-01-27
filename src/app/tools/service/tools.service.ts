@@ -331,7 +331,7 @@ const toolDetailItems: ToolDetailItem[] = [
     'https://testing-library.com',
     'assets/logos/testing-library.png',
     '',
-    ['Accessiblility testing is included by default!', 'Accessiblility testing is included by default!', 'Focussed on interacting with your components the way a user would'],
+    [ 'Accessiblility testing is included by default!', 'Focussed on interacting with your components the way a user would'],
     [],
     ['Familly of testing libraries to test our components without having to know the implementation details']
   ),
