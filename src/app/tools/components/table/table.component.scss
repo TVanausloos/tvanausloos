@@ -53,6 +53,10 @@ $_mutation-amount: 1;
   background-color: $pink;
 }
 
+app-table-item:hover{
+  filter: brightness(75%);
+}
+
 
 @mixin generate-grid-area-class-for($amount, $class-name) {
   @for $i from 1 through $amount {
