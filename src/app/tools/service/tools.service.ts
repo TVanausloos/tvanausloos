@@ -36,7 +36,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://jasmine.github.io',
     'assets/logos/jasmine.svg',
-    '',
     [],
     [],
     ['Assertion library', 'Default packaged with Angular']
@@ -48,7 +47,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://karma-runner.github.io/latest/index.html',
     'assets/logos/karma.png',
-    '',
     [
       'Framework/testing library agnostic',
       'Already configured so if you dont need anything special, you can use the default setup',
@@ -67,7 +65,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://mochajs.org//index.html',
     'assets/logos/mocha.svg',
-    '',
     ['Can run tests in parallel as of version 8.0', 'Has a watch-mode'],
     ['No parallel tests prior to version 8.0'],
     ['Makes use of the actual browser to run its tests', 'Uses Karma as runner']
@@ -79,7 +76,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://jestjs.io',
     'assets/logos/jest.png',
-    '',
     [
       'Can run tests in parallel',
       'Does not use the browser but uses jsdom to emulate a browser -> fast!',
@@ -101,7 +97,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://jestjs.io/docs/timer-mocks',
     'assets/logos/jest.png',
-    '',
     [],
     [],
     [
@@ -115,7 +110,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://angular.io/api/core/testing',
     'assets/logos/angular.png',
-    '',
     [
       'fakeAsync treats our code as if it were synchronous, allowing us to write a more traditional given-when-then tests!',
     ],
@@ -131,7 +125,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://rxjs.dev/guide/testing/marble-testing',
     'assets/logos/rxjs.png',
-    '',
     ['Very usefull to test complex reactive operations'],
     [],
     ['Test rxjs code by describing the different input and output streams']
@@ -143,7 +136,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.COMPONENT_TEST,
     'https://material.angular.io/guide/using-component-harnesses',
     'assets/logos/angular-material.png',
-    '',
     ['Is included in Angular Material'],
     [],
     [
@@ -157,7 +149,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.COMPONENT_TEST,
     'https://ngneat.github.io/spectator',
     'assets/logos/spectator.svg',
-    '',
     [
       'Removes boilerplate code',
       'No testbed setup needed',
@@ -175,7 +166,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.COMPONENT_TEST,
     'https://testing-library.com',
     'assets/logos/testing-library.png',
-    '',
     [
       'Accessiblility testing is included by default!',
       'Focussed on interacting with your components the way a user would',
@@ -192,7 +182,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.UNIT_TEST,
     'https://www.npmjs.com/package/jest-marbles',
     'assets/logos/jest.png',
-    '',
     [],
     [],
     ['RxJs marbles that works specifically with Jest']
@@ -204,7 +193,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.MUTATION_TEST,
     'https://stryker-mutator.io/docs',
     'assets/logos/stryker.png',
-    '',
     [],
     [],
     ['Mutates the sourcecode and expects the tests to fail.']
@@ -216,7 +204,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.E2E_TEST,
     '',
     'assets/logos/protractor.png',
-    '',
     [],
     ['Deprecated by Angular as of v12'],
     ['Selenide based']
@@ -228,7 +215,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.E2E_TEST,
     'https://www.cypress.io',
     'assets/logos/cypress.webp',
-    '',
     [
       'Multibrowser support',
       'Runs next to our frontend application in the browser -> has access to rest calls, local/session storage, cookies,...',
@@ -249,7 +235,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.E2E_TEST,
     'https://playwright.dev/docs/intro',
     'assets/logos/playwright.png',
-    '',
     ['Multibrowser support'],
     ['Not enough knowledge of this framework yet'],
     ['Alternative for Cypress']
@@ -261,7 +246,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.VISUAL_REGRESSION_TEST,
     'https://playwright.dev/docs/test-snapshots',
     'assets/logos/playwright.png',
-    '',
     [],
     [],
     [
@@ -276,7 +260,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.VISUAL_REGRESSION_TEST,
     'https://pptr.dev',
     'assets/logos/puppeteer.png',
-    '',
     [],
     [],
     ['Compares the screenshot against a "golden file"']
@@ -288,7 +271,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.ACCESSIBILITY_TEST,
     'https://github.com/component-driven/cypress-axe',
     'assets/logos/cypress.webp',
-    '',
     ['Tests accessibility of the entire page'],
     [
       'Check happens when command is called, any changes that happen later on the page are not checked',
@@ -302,7 +284,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.ACCESSIBILITY_TEST,
     'https://github.com/nickcolley/jest-axe#readme',
     'assets/logos/npm.png',
-    '',
     ['Tests accessibility!', 'Automated checking of accessibility rules'],
     [
       'Does not catch all problems',
@@ -317,7 +298,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://rxjs.dev',
     'assets/logos/rxjs.png',
-    '',
     [
       'Observables!',
       'Very powerful once you are used to think according to the reactive paradigma',
@@ -332,7 +312,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://ngrx.io',
     'assets/logos/ngrx.svg',
-    '',
     [
       'Has schematics that avoid you having to write the boilerplate code',
       'Isolates the side effects of actions from your components',
@@ -350,7 +329,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://nx.dev',
     'assets/logos/nx.png',
-    '',
     ['Shared build caches', 'Has schematics for multiple tech stacks'],
     [],
     ['Monorepo build system for projects of any size']
@@ -362,7 +340,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://angular.io/guide/http#testing-http-requests',
     'assets/logos/angular.png',
-    '',
     [],
     [],
     ['Angulars build-in testing library to mock the HttpClient']
@@ -374,7 +351,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/jest-auto-spies',
     'assets/logos/npm.png',
-    '',
     [
       'Reduces code clutter when setting up mocks',
       'Refactoring methodnames also refactors the mocks API names',
@@ -392,7 +368,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://github.com/ike18t/ng-mocks',
     'assets/logos/npm.png',
-    '',
     [],
     [],
     [
@@ -406,7 +381,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://storybook.js.org',
     'assets/logos/storybook.png',
-    '',
     [
       'Provides a sandbox to develop and test components in isolation',
       'Helps making good abstractions of your components',
@@ -424,7 +398,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.npmjs.com/package/supertest',
     'assets/logos/npm.png',
-    '',
     [],
     [],
     ['Javascript librarie to test your REST API']
@@ -436,7 +409,6 @@ const toolDetailItems: ToolDetailItem[] = [
     ToolCategory.LIBRARY,
     'https://www.mock-server.com/',
     'assets/logos/npm.png',
-    '',
     [],
     [],
     ['Easy to mock a http server you integrate with']

@@ -8,7 +8,6 @@ export class ToolDetailItem {
     private category: ToolCategory,
     private website: string,
     private logoLocation: string,
-    private textInnerHtml: string,
     private pros: string[],
     private cons: string[],
     private comments: string[]
@@ -36,10 +35,6 @@ export class ToolDetailItem {
 
   getLogoLocation(): string {
     return this.logoLocation;
-  }
-
-  getTextInnerHtml(): string {
-    return this.textInnerHtml;
   }
 
   getPros(): string[] {
